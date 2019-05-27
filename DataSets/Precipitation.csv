@@ -1,0 +1,13 @@
+MONTH,Rainfall (mm),Snowfall (cm),Precipitation (mm),Average Snow Depth (cm),Median Snow Depth (cm),Snow Depth at Month-end (cm)
+JAN,29.1,37.2,61.5,7,6,7
+FEB,29.7,27,55.4,6,6,5
+MAR,33.6,19.8,53.7,3,2,1
+APR,61.1,5,68,0,0,0
+MAY,82,0,82,0,0,0
+JUN,70.9,0,70.9,0,0,0
+JUL,63.9,0,63.9,0,0,0
+AUG,81.1,0,81.1,0,0,0
+SEP,84.7,0,84.7,0,0,0
+OCT,64.3,0.1,64.4,0,0,0
+NOV,75.4,8.3,84.1,0,0,0
+DEC,38.2,24.1,61.5,2,2,4
