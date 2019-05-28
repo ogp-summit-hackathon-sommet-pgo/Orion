@@ -2,7 +2,7 @@
 
 ## Description
 
-A visualization tool to identify the roofs that are the best candidates for having solar panels. This is a case study for Toronto, but the same methods could easily be applied to other cities across the globe. The algorithm for determining fit relies on the following factors:
+This is a visualization tool to help cities identify the roofs that are the best candidates for having solar panels. This is a case study for Toronto, but the same methods could easily be applied to other cities across the globe. The algorithm for determining fit relies on the following factors:
 * roof surface area, as estimated from building footprint
 * building height -- ideally 4m-20m
 * proximity to taller buildings
