@@ -10,8 +10,11 @@ marker.add_to(folium_map)
 
 surface_data = pd.read_csv("3DMassing_2018_WGS84.csv")
 
+energy_data = pd.read_csv("withlatlong.csv")
+
 surface_data_head = surface_data
 
+energy_data_head = energy_data
 
 '''
 surface_data["MAX_HEIGHT"]
@@ -28,5 +31,11 @@ surface_data["SHAPE_AREA"]
 heat_map_data = surface_data_head[['LONGITUDE', 'LATITUDE', 'SHAPE_AREA']].groupby(['LONGITUDE', 'LATITUDE']).sum().reset_index().values.tolist()
 
 HeatMap(data = heat_map_data, radius = 8, max_zoom = 13).add_to(folium_map)
+
+for index, row in energy_data_head.iterrows():
+    folium.Marker([row["LAT"], row["LNG"]],
+              popup=row["R_BUILDING"],
+              icon=folium.Icon(color='green')
+             ).add_to(folium_map)
 
 folium_map.save("toronto.html")
