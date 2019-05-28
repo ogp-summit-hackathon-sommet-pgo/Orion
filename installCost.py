@@ -1,3 +1,6 @@
+import pandas
+
+
 def install_cost_solar(area: float) -> int:
     """
     Calculates the average cost of installing solar panels over a given area
@@ -24,5 +27,7 @@ def install_cost_green(area: float) -> int:
 
 
 if __name__ == "__main__":
-    print(install_cost_green(200.56))
-    print(install_cost_solar(200.56))
+    f = lambda a: (install_cost_solar(float(a)))
+    massing_df = pandas.read_csv('DataSets/3DMassing_2018_WGS84_fixed.csv', index_col=['SHAPE_AREA'],
+                                 usecols=['SHAPE_AREA'])
+
