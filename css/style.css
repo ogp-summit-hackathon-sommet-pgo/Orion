@@ -1,0 +1,140 @@
+body {
+  font: 24px/1.5 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+body #overview {
+  padding: 30px 0 0 0;
+  text-align: left;
+}
+
+body #work {
+  padding: 5px 0 0 0;
+}
+
+/* Global */
+.container {
+  width: 92%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.paragraph {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.date {
+  float: right;
+  font-weight: bold;
+}
+
+.title {
+  font: 22px/1 'Open Sans', sans-serif;
+  text-align: left;
+  width: 84%;
+  margin: 50px 200px 50px 200px;
+  font:
+}
+
+.card {
+  font: 18px/1.25 'Open Sans', sans-serif;
+  text-align: left;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 25px 100px 25px 100px;
+  padding-bottom: 30px;
+}
+
+hr {
+  border: #FFFFFF 1px solid;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font icons */
+.fa {
+  padding: 20px 40px 40px 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-linkedin {
+  color: #FFFFFF;
+}
+
+.fa-github {
+  color: #FFFFFF;
+}
+
+.fa-envelope {
+  color: #FFFFFF;
+}
+
+
+/* Header */
+header {
+  background: #FFFFFF;
+  color: #000000;
+  min-height: 70px;
+  margin-bottom: 20px;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 23px;
+}
+
+header .highlight, header .current a {
+  color: #06A9FC;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #06A9FC;
+}
+
+header #name {
+  float: left;
+}
+
+header #name h1 {
+  margin: 0 0 13px 0;
+}
+
+header #name a{
+  font: 32px/1.5 'Roboto Slab', sans-serif;
+  color: #000000;
+}
